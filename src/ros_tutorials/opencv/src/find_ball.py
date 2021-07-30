@@ -114,9 +114,8 @@ class BlobDetector:
                 y = keyPoint.pt[1]
                 s = keyPoint.size
                 print ("kp %d: s = %3d   x = %3d  y= %3d"%(i, s, x, y))
-                
                 #--- Find x and y position in camera adimensional frame
-                x, y = get_blob_relative_position(cv_image, keyPoint)
+                #x, y = get_blob_relative_position(cv_image, keyPoint)
                 
                 self.blob_point.x = x
                 self.blob_point.y = y
