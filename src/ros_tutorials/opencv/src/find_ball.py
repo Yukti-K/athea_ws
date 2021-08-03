@@ -151,10 +151,10 @@ def main(args):
     max_size = 40
     
     #--- detection window respect to camera frame in [x_min, y_min, x_max, y_max] adimensional (0 to 1)
-    x_min   = 0.1
-    x_max   = 0.9
-    y_min   = 0.2
-    y_max   = 0.9
+    x_min   = 0.4
+    x_max   = 0.8
+    y_min   = 0.4
+    y_max   = 0.8
     
     detection_window = [x_min, y_min, x_max, y_max]
     

@@ -257,8 +257,8 @@ if __name__=="__main__":
     window = [0.25, 0.25, 0.65, 0.75]
     
     #-- IMAGE_SOURCE: either 'camera' or 'imagelist'
-    SOURCE = 'video'
-    #SOURCE = 'camera'
+    #SOURCE = 'video'
+    SOURCE = 'camera'
     
     if SOURCE == 'video':
         #test_cv_bridge()
